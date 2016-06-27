@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ready()触发事件</title>
+	<meta http-equiv="Content-Type" content="charset=utf-8"/>
+	<script type="text/javascript" src="jquery-3.0.0.js"></script>
+</head>
+<body>
+	<h3>页面载入时触发ready()事件</h3>
+	<div id="a1"></div>
+	<input id="a2" type="button" value="点下我"/>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#a2").bind("click",function(){
+				$("#a1").html("我被点击了！");
+			});
+		});
+	</script>
+</body>
+</html>
