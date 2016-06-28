@@ -1,0 +1,26 @@
+.red{color:red;}
+.green{color:green;}
+.yanse{
+	background: red;
+}
+span{
+	height: 70px;
+	width: 70px;
+	position: absolute;
+	border: solid 1px #ccc;
+	margin: 8px;
+	background-color: red;
+	color: white;
+}
+div{
+	height: 50px;
+	width: 90px;
+	background-color: red;
+	color: white;
+	margin: 5px;
+	border: solid 2px #ccc;
+	position: absolute;
+}
+input{
+	margin:70px 5px ;
+}
