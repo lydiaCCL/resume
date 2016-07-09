@@ -1,0 +1,99 @@
+ *{margin:0;padding: 0;}
+body{
+	background-image: url("64.jpg");
+	background-repeat:repeat-x;
+}
+.container{
+	margin:0 auto;
+	/*background-color: pink;*/
+}
+.photo{	
+	width:300px;
+	/*background-color: yellow;*/
+	margin: 50px auto; 
+	margin-top: 200px;
+}
+.name{ 		
+	font-family: 微软雅黑,宋体;
+     margin:0 auto;
+     font-size: 50px;  
+     /*background-color: red;*/    	
+}
+.nav{
+	margin-top: 5px;
+	color: red;
+	top:10px;
+	left: 10px;
+	height: 30px;
+	position: fixed;
+}
+ul{
+	list-style: none;
+}
+.nav li{
+	float: left;
+	padding: 10px;
+}
+.nav li a{
+	text-decoration: none;
+	display: block;
+	height: 30px;
+	line-height: 15px;
+	width: 100px;
+	margin-bottom: 5px;
+	color: red;
+}
+.nav li a:hover{
+	color: green;
+}
+/*第二页*/
+.education{
+	position: absolute;
+	width: 100%;
+}
+h1{
+	text-align: center;
+	height: 60px;
+	margin-top: 10px;
+	background-color: red;
+	font-size: 40px;
+}
+.content2{
+	width: 100%;
+	margin: 50px auto;
+	height: 600px;
+	background-color: green;
+	clear: both;
+}
+h3,h4,p{
+	display: block;
+	margin-left: 20px;
+}
+.2_left{
+	width: 100px;
+	height: 600px;
+	color: red;
+	position: absolute;
+	left:0;
+	top:0;
+}		
+.2_right{
+	position: absolute;
+	width: 1200px;
+	height: 600px;
+	background-color: #070;
+	margin: 0 0 0 220px;
+}
+.right_l{
+	width: 300px;
+	height: 600px;
+	background-color: blue;
+	left: 0;
+	float: left;
+}
+.right_r{
+	float:right;
+	width: 200px;
+	height: 600px;
+	right: 0;
+}
