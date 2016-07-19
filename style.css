@@ -2,6 +2,8 @@
 body{
 	background-image: url("64.jpg");
 	background-repeat:repeat-x;
+	margin:0;
+	padding: 0;
 }
 .container{
 	margin:0 auto;
@@ -47,53 +49,51 @@ ul{
 	color: green;
 }
 /*第二页*/
-.education{
+/*.education{
 	position: absolute;
 	width: 100%;
-}
-h1{
-	text-align: center;
+}*/
+h1{text-align: center;
 	height: 60px;
-	margin-top: 10px;
-	background-color: red;
+	margin-top: 300px;
+	/*background-color: red;*/
 	font-size: 40px;
+
+}
+.top{
+	width: 100%;
+	height: 100px;
+	margin-top: 200px;
+}
+div.education p{
+	text-align: center;
+	line-height: 30px;
+}
+.2left{
+	
+	width: 100px;
+	top: 100px;
+	left: 20px;
+	padding:100px;
+	margin-top: 100px;
+}
+.right_l{
+	left: 36%;
+	top: 100px;
+}
+.right_r{
+	left:67%;
+	top: 100px;
+	right: 30px;
+}
+.pos_absolute{
+	position: absolute;
 }
 .content2{
 	width: 100%;
-	margin: 50px auto;
-	height: 600px;
-	background-color: green;
-	clear: both;
-}
-h3,h4,p{
-	display: block;
-	margin-left: 20px;
-}
-.2_left{
-	width: 100px;
-	height: 600px;
-	color: red;
+	height: 480px;
+	background-color: pink;
+	margin-top: 20px;
 	position: absolute;
-	left:0;
-	top:0;
-}		
-.2_right{
-	position: absolute;
-	width: 1200px;
-	height: 600px;
-	background-color: #070;
-	margin: 0 0 0 220px;
-}
-.right_l{
-	width: 300px;
-	height: 600px;
-	background-color: blue;
-	left: 0;
-	float: left;
-}
-.right_r{
-	float:right;
-	width: 200px;
-	height: 600px;
-	right: 0;
+
 }
