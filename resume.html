@@ -4,21 +4,36 @@
 	<title>个人简历第一页</title>
 	<meta http-equiv="Content-Type" content="charset=utf-8"/>
 	<link href="style.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="jquery-3.0.0.js"></script>
 </head>
 <body>
 	<!-- 导航条 -->
-	<div class="nav">
+<!-- 	 <div class="nav">
 			<ul class="navbar">
-      			<li><a href="#" >简历首页</a></li>
-      			<li><a href="#" >教育背景</a></li>
-      			<li><a href="#" >专业技能</a></li>
-      			<li><a href="#" >项目经历</a></li>
-      			<li><a href="#" >目标职位</a></li>
-      			<li><a href="#" >了解更多</a></li>
+      			<li><a href="#welcome" >简历首页</a></li>
+      			<li><a href="#education1" >教育背景</a></li>
+      			<li><a href="#skill" >专业技能</a></li>
+      			<li><a href="#experience1">项目经历</a></li>
+      			<li><a href="#position" >目标职位</a></li>
+      			<li><a href="#more" >了解更多</a></li>
 			</ul>
+	</div> 
+ -->
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="menu-nav">
+	<div class="navbar-collapse collapse">
+		<ul class="nav navbar-nav">
+			<li ><a href="#welcome">简历首页</a></li>
+			<li><a href="#education1" >教育背景</a></li>
+      		<li><a href="#skill" >专业技能</a></li>
+      		<li><a href="#experience1" >项目经历</a></li>
+      		<li><a href="#position" >目标职位</a></li>
+      		<li><a href="#more" >了解更多</a></li>
+		</ul>
 	</div>
+</div>
+
 	<!-- 第一页 -->
-	<div class="container">
+	<div class="container" id="welcome">
 		<div class="photo" >
 			<img src="204453406140895199.jpg"  width="240" height="300"/>
 		</div>
@@ -30,7 +45,7 @@
 
 
 	<!-- 第二页 -->
-	<div class="education">
+	<div class="education" id="education1">
 		<div class="top">
 			<h1>教育背景</h1>
 		</div>
@@ -43,9 +58,9 @@
 				<h4>学生活动：</h4>
 				<p>ACM协会副会长，学生会干事，班级生活委员，寝室长等</p>
 			</div>
-			<div class="right_l pos_absolute">
+			<!-- <div class="right_l pos_absolute">
 				<img src="201205311638181672.jpg" width="400px" height="300px"/>
-			</div>
+			</div> -->
 			<div class="right_r pos_absolute">
 				<h3>研究生期间:</h3>
 				<p>2014至今，就读于杭州电子科技大学电子信息学院————电子与通信工程</p>
@@ -55,17 +70,44 @@
 		</div>
 </div>
 <!-- 第三页 -->
-<div class="page3">
-	<div class="skills">
-		<h1>专业技能</h1>
-	</div>
-	<div class="content3">
-		
-	</div>
-
+<div class="page3" id="skill">
+	<section id="block-skill">
+		<div class="container">
+			<div class="skill-title">
+				<h2>专 业 技 能</h2>
+			</div>
+			<div class="skills">
+				<ul class="skill-lang">
+					<li>语言</li>
+					<li>HTML(5)</li>
+					<li>CSS(3)</li>
+					<li>Javascript</li>
+				</ul>
+				<ul class="skill-idea">
+					<li>思想</li>
+					<li>W3C标准</li>
+					<li>语义化</li>
+					<li>响应式设计</li>
+				</ul>
+				<ul class="skill-frame">
+					<li>框架</li>
+					<li>jQuery</li>
+					<li>Bootstrap</li>
+				</ul>
+				<ul class="skill-tech">
+					<li>技术</li>
+					<li>Git</li>
+					<li>Sentaurus TCAD</li>
+					<li>Linux</li>
+				</ul>
+			</div>
+		</div>
+	</section>
 </div>
+
+
 <!-- 第四页-->
-<div class="page4">
+<div class="page4" id="experience1">
 	<div class="experience">
 		<h1>项目经历</h1>
 	</div>
@@ -77,10 +119,26 @@
 	<p>完成了两篇国防报告。</p>
 	</div>
 </div>
-
-
-<div>
-	
+<!-- 第五页 -->
+<div class="page5" id="position">
+	<div class="jobs">
+		<h1 class="job">目标职位</h1>
+	</div>
+	<div class="content5">
+		<p class="want">前端工程师</p>
+	</div>
+</div>
+<!-- 第六页 -->
+<div class="more1" id="more">
+	<div class="know">
+		<h1>了解更多</h1>
+	</div>
+	<div class="content6">
+		<h3>个人主页</h3>
+		<p><a class="btn" href="https://github.com/lydiaCCL/resume" target="_blank" role="button">
+		Github</a></p>
+		<p><b>Email:</b>976283823@qq.com</p>
+	</div>
 </div>
 </body>
 </html>
