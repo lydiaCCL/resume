@@ -7,7 +7,7 @@ body{
 }
 .container{
 	margin:0 auto;
-
+	height: 820px;
 
 	/*background-color: pink;*/
 }
@@ -15,7 +15,8 @@ body{
 	width:240px;
 	/*background-color: yellow;*/
 	margin: 30px auto; 
-	margin-top: 160px;
+	padding-top: 160px;
+	text-indent: 20px;
 }
 .name{ 		
 	font-family: 微软雅黑,宋体;
@@ -51,68 +52,53 @@ ul{
 	color: yellow;
 }
 /*第二页*/
-/*.education{
-	position: absolute;
-	width: 100%;
-}*/
-h1{text-align: center;
-	height: 60px;
-	margin-top: 300px;
-	/*background-color: red;*/
-	font-size: 40px;
-
-}
 .education{
-	width: 100%;
 	height: 820px;
-	background-color: blue;
-	
+	background-color: #CCFFFF;
 }
 .top{
-	width: 100%;
-	position: absolute;
-	margin-top: 50px;
-}
-.content2{
-	margin-top: 200px;
-	position: absolute;
-}
-div.education p{
 	text-align: center;
-	line-height: 30px;
-	font-size: 20px;
+	height: 200px;
+	line-height: 200px;
+	font-size: 40px;
+	margin-top: 390px;
+	margin-bottom: 10px;
 }
-.2left{
-	width: 90px;
-	top: 100px;
-	left: 20px;
-	padding:100px;
-	margin-top: 100px;
-	position: absolute;
-}
-.right_l{
-	left: 36%;
-	top: 100px;
-}
-.right_r{
-	left:67%;
-	top: 100px;
-	right: 30px;
-}
-.pos_absolute{
-	position: absolute;
-}
+
 .content2{
 	width: 100%;
-	height: 480px;
-	/*background-color: pink;*/
-	margin-top: 20px;
-	position: absolute;
+	height: 500px;
 
+}
+.middle{
+	padding-top: 60px;
+	margin: 0 510px;
+	
+}
+.left,.right{
+
+	width: 400px;
+}
+.left{
+	height: 470px;
+	float: left;
+	padding-left: 40px;
+	padding-top: 50px;
+	line-height: 30px;
+}
+.right{
+	height: 465px;
+	float: right;
+	padding-right: 40px;
+	padding-top: 55px;
+	line-height: 30px;
+}
+.content2 p{
+	text-indent: 5px;
 }
 /*page3*/
 #block-skill {height:790px; width:100%; background-color:#9C58B6; color:#FFFFFF; padding-top:100px;}
-#block-skill .skill-title {width:300px; margin:0 auto; padding-top:100px; text-align:center;}
+#block-skill .skill-title {width:300px; margin:0 auto; padding-top:100px; text-align:center;font-size: 30px;}
 #block-skill .skills {height:auto; width:auto;}
 #block-skill ul {display:inline-block; height:auto; width:210px; margin:80px 0 0 56px; border:2px solid #FFFFFF; font-size:20px; font-family:"Microsoft YaHei light"; text-align: center; vertical-align: top;}
 #block-skill li {height:36px; line-height:36px;}
@@ -122,50 +108,48 @@ section{width:100%; overflow: hidden;}
 .container{margin:0 auto; width:1140px; height:100%;z-index:0;}
 /*page4*/
 .page4{
-	
 	width: 100%;
 	height: 820px;
-	position: absolute;
-	background-color: green;
+	background-color: #6A5ACD;
 }
 .experience{
-	margin-bottom: 80px;
+	padding-top: 150px;
+	text-align: center;
+	height: 150px;
+	line-height: 150px;
 }
 .content4{
-	margin: 10px 80px 0 80px;
+	width: 100%;
 }
-p{
-	/*text-align: center;*/
+.content4 p{
+
 	line-height: 40px;
-	font-size: 20px;
-	text-indent: 2em;
+	font-size: 18px;
+	width: 90%;
+	margin-left:5%;
 }
-.experience h1{
-	/*background-color: red;*/
-	margin-top: 100px;
+.content4 h3{
+	margin-left: 30px;
 }
 /*page5*/
 .page5{
 	width: 100%;
 	height: 850px;
-	margin-top: 800px;
 	background-color: pink;
 }
 .jobs{
-	position: absolute;
-	/*background-color: yellow;*/
-	margin-top: 0 auto;
+	/*background-color: gray;*/
 	width: 100%;
+	text-align: center;
+	padding-top: 280px;
 }
 .job {
 	text-align: center;
-	font-size: 50px;
+	font-size: 70px;
 }
 .content5{
-margin-top: 400px;
 width:100%;
-position: absolute;
-margin:q  auto;
+margin-top: 50px;
 
 }
 .want{text-align: center;
@@ -177,22 +161,27 @@ margin:q  auto;
 /*page6*/
 .more1{
 	width: 100%;
-	height: 750px;
-	margin-top: 80px;
+	height: 820px;
 }
 .know{
-	margin: 0 auto;
-
-	position: absolute;
-	width: 100%;
+	/*background-color: red;*/
+	padding: 150px;
+	text-align: center;	
+	height: 200px;
+	line-height: 200px;
 }
 .content6{
 	width: 100%;
-	margin-top: 400px;
-	position: absolute;
+	/*margin-top: 400px;*/
+	margin-top: -100px;
 	text-align: center;
 }
 
-
+.content6 h3,p{
+	width: 100%;
+	text-indent: 5px;
+	height: 50px;
+	font-size: 20px;
+}
 
 
